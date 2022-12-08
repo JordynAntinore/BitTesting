@@ -9,6 +9,19 @@
  */
 
 {
+    "apps/header": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "my-org.tasks-scope",
+        "mainFile": "index.ts",
+        "rootDir": "tasks-scope/apps/header",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
     "apps/to-do": {
         "scope": "",
         "version": "",
